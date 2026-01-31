@@ -1,11 +1,5 @@
 {
-  "functions": {
-    "api/aibattle.py": {
-      "maxDuration": 60,
-      "memory": 3008,
-      "runtime": "python3.11"
-    }
-  },
+ 
   "routes": [
     {
       "src": "/(.*)",
