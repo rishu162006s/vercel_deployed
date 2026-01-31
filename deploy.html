@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deploy AI Battle PDF QA</title>
+</head>
+<body>
+    <h1>🚀 Deploy AI Battle PDF QA System</h1>
+    
+    <a href="https://vercel.com/new/clone?repository-url=https://github.com/yourusername/pdf-qa-system&env=API_KEY&env=MODEL_NAME&env=HF_TOKEN&project-name=ai-battle-pdf-qa">
+        <img src="https://vercel.com/button" alt="Deploy with Vercel">
+    </a>
+    
+    <h2>Quick Start:</h2>
+    <ol>
+        <li>Click "Deploy with Vercel" above</li>
+        <li>Set environment variables:
+            <ul>
+                <li><code>API_KEY</code>: Your secret key</li>
+                <li><code>MODEL_NAME</code>: Qwen/Qwen2.5-7B-Instruct</li>
+                <li><code>HF_TOKEN</code>: Your HuggingFace token (optional)</li>
+            </ul>
+        </li>
+        <li>Deploy!</li>
+    </ol>
+    
+    <h2>API Endpoints:</h2>
+    <pre>
+POST https://your-project.vercel.app/aibattle/ask
+Content-Type: application/json
+
+{
+    "pdf_url": "https://example.com/document.pdf",
+    "questions": ["Question 1", "Question 2"],
+    "api_key": "your-secret-key"
+}
+    </pre>
+</body>
+</html>
